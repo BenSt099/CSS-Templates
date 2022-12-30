@@ -27,6 +27,24 @@ body {
     left: 43%;
 }
 
+.chimney2 {
+    background-color: black;
+    position: absolute;
+    height: 120px;
+    width: 40px;
+    top: 13%;
+    left: 53%;
+}
+
+.factory {
+    background-color: black;
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    top: 25%;
+    left: 36%;
+}
+
 .wrapper .raindrop:nth-child(1) {
     top: 12%;
     left: 42%;
