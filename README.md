@@ -11,7 +11,7 @@ Provide a funny animation created with css.
 ## Animations
 
 - Factory
-- Rainfall
+- Snowfall
 
 ## License
 
