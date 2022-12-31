@@ -10,110 +10,109 @@ body {
     background: linear-gradient(to bottom, #000066 0%, #3366ff 100%);
 }
 
-.wrapper .raindrop {
+.wrapper .snowflake {
     position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color: rgb(62, 151, 185);
-    border-radius: 90px;
+    height: 100px;
+    width: 100px;
+    text-align: center;   
 }
 
-.wrapper .raindrop:nth-child(1) {
+.wrapper .snowflake:nth-child(1) {
     top: 12%;
     left: 42%;
     animation: animate 7s ease infinite;
 }
-.wrapper .raindrop:nth-child(2) {
+.wrapper .snowflake:nth-child(2) {
     top: 30%;
     left: 52%;
     animation: animate 6s linear infinite;
 }
-.wrapper .raindrop:nth-child(3) {
+.wrapper .snowflake:nth-child(3) {
     top: 50%;
     left: 62%;
     animation: animate 9s linear infinite;
 }
-.wrapper .raindrop:nth-child(4) {
+.wrapper .snowflake:nth-child(4) {
     top: 9%;
     left: 9%;
     animation: animate 8s linear infinite;
 }
-.wrapper .raindrop:nth-child(5) {
+.wrapper .snowflake:nth-child(5) {
     top: 70%;
     left: 82%;
     animation: animate 4s linear infinite;
 }
-.wrapper .raindrop:nth-child(6) {
+.wrapper .snowflake:nth-child(6) {
     top: 90%;
     left: 72%;
     animation: animate 5s linear infinite;
 }
-.wrapper .raindrop:nth-child(7) {
+.wrapper .snowflake:nth-child(7) {
     top: 69%;
     left: 12%;
     animation: animate 7s linear infinite;
 }
-.wrapper .raindrop:nth-child(8) {
+.wrapper .snowflake:nth-child(8) {
     top: 76%;
     left: 22%;
     animation: animate 11s linear infinite;
 }
-.wrapper .raindrop:nth-child(9) {
+.wrapper .snowflake:nth-child(9) {
     top: 90%;
     left: 50%;
     animation: animate 12s linear infinite;
 }
-.wrapper .raindrop:nth-child(10) {
+.wrapper .snowflake:nth-child(10) {
     top: 35%;
     left: 47%;
     animation: animate 10s linear infinite;
 }
-.wrapper .raindrop:nth-child(11) {
+.wrapper .snowflake:nth-child(11) {
     top: 15%;
     left: 33%;
     animation: animate 10s linear infinite;
 }
-.wrapper .raindrop:nth-child(12) {
+.wrapper .snowflake:nth-child(12) {
     top: 10%;
     left: 76%;
     animation: animate 6s linear infinite;
 }
-.wrapper .raindrop:nth-child(13) {
+.wrapper .snowflake:nth-child(13) {
     top: 8%;
     left: 66%;
     animation: animate 9s linear infinite;
 }
-.wrapper .raindrop:nth-child(14) {
+.wrapper .snowflake:nth-child(14) {
     top: 9%;
     left: 3%;
     animation: animate 8s linear infinite;
 }
-.wrapper .raindrop:nth-child(15) {
+.wrapper .snowflake:nth-child(15) {
     top: 3%;
     left: 1%;
     animation: animate 4s linear infinite;
 }
-.wrapper .raindrop:nth-child(16) {
+.wrapper .snowflake:nth-child(16) {
     top: 99%;
     left: 5%;
     animation: animate 5s linear infinite;
 }
-.wrapper .raindrop:nth-child(17) {
+.wrapper .snowflake:nth-child(17) {
     top: 23%;
     left: 88%;
     animation: animate 7s linear infinite;
 }
-.wrapper .raindrop:nth-child(18) {
+.wrapper .snowflake:nth-child(18) {
     top: 96%;
     left: 71%;
     animation: animate 11s linear infinite;
 }
-.wrapper .raindrop:nth-child(19) {
+.wrapper .snowflake:nth-child(19) {
     top: 55%;
     left: 57%;
     animation: animate 12s linear infinite;
 }
-.wrapper .raindrop:nth-child(20) {
+.wrapper .snowflake:nth-child(20) {
     top: 39%;
     left: 45%;
     animation: animate 10s linear infinite;
@@ -121,11 +120,11 @@ body {
 
 @keyframes animate {
     0%{
-        transform: scale(0) translateY(0);
+        top: -10%;
         opacity: 1;
     }
     100%{
-        transform: scale(0.7) translateY(290px);
+        top: 100%;
         opacity: 0;
     }
 }
