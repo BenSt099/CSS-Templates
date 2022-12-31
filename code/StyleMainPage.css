@@ -33,7 +33,16 @@ body {
     height: 120px;
     width: 40px;
     top: 35%;
-    left: 53%;
+    left: 53.5%;
+}
+
+.chimney3 {
+    background-color: black;
+    position: absolute;
+    height: 180px;
+    width: 20px;
+    top: 27%;
+    left: 50%;
 }
 
 .factory {
@@ -93,6 +102,57 @@ body {
 .wrapper .raindrop:nth-child(10) {
     top: 35%;
     left: 42%;
+    animation: animate 10s linear infinite;
+}
+
+.wrapper .raindrop:nth-child(11) {
+    top: 31%;
+    left: 53%;
+    animation: animate 10s linear infinite;
+}
+.wrapper .raindrop:nth-child(12) {
+    top: 31%;
+    left: 53%;
+    animation: animate 6s linear infinite;
+}
+.wrapper .raindrop:nth-child(13) {
+    top: 31%;
+    left: 53%;
+    animation: animate 9s linear infinite;
+}
+.wrapper .raindrop:nth-child(14) {
+    top: 31%;
+    left: 53%;
+    animation: animate 8s linear infinite;
+}
+.wrapper .raindrop:nth-child(15) {
+    top: 31%;
+    left: 53%;
+    animation: animate 4s linear infinite;
+}
+.wrapper .raindrop:nth-child(16) {
+    top: 31%;
+    left: 53%;
+    animation: animate 5s linear infinite;
+}
+.wrapper .raindrop:nth-child(17) {
+    top: 31%;
+    left: 53%;
+    animation: animate 7s linear infinite;
+}
+.wrapper .raindrop:nth-child(18) {
+    top: 31%;
+    left: 53%;
+    animation: animate 11s linear infinite;
+}
+.wrapper .raindrop:nth-child(19) {
+    top: 31%;
+    left: 53%;
+    animation: animate 12s linear infinite;
+}
+.wrapper .raindrop:nth-child(20) {
+    top: 31%;
+    left: 53%;
     animation: animate 10s linear infinite;
 }
 
