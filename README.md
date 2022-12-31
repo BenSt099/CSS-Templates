@@ -6,7 +6,7 @@
 
 ## Goal
 
-Provide a funny animation created with css.
+Funny animations created with css.
 
 
 ## Animations
