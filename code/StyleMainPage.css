@@ -23,7 +23,7 @@ body {
     position: absolute;
     height: 100px;
     width: 20px;
-    top: 16%;
+    top: 38%;
     left: 43%;
 }
 
@@ -32,7 +32,7 @@ body {
     position: absolute;
     height: 120px;
     width: 40px;
-    top: 13%;
+    top: 35%;
     left: 53%;
 }
 
@@ -41,57 +41,57 @@ body {
     position: absolute;
     height: 100px;
     width: 500px;
-    top: 25%;
+    top: 45%;
     left: 36%;
 }
 
 .wrapper .raindrop:nth-child(1) {
-    top: 12%;
+    top: 35%;
     left: 42%;
     animation: animate 10s linear infinite;
 }
 .wrapper .raindrop:nth-child(2) {
-    top: 12%;
+    top: 35%;
     left: 42%;
     animation: animate 6s linear infinite;
 }
 .wrapper .raindrop:nth-child(3) {
-    top: 12%;
+    top: 35%;
     left: 42%;
     animation: animate 9s linear infinite;
 }
 .wrapper .raindrop:nth-child(4) {
-    top: 12%;
+    top: 35%;
     left: 42%;
     animation: animate 8s linear infinite;
 }
 .wrapper .raindrop:nth-child(5) {
-    top: 12%;
+    top: 35%;
     left: 42%;
     animation: animate 4s linear infinite;
 }
 .wrapper .raindrop:nth-child(6) {
-    top: 12%;
+    top: 35%;
     left: 42%;
     animation: animate 5s linear infinite;
 }
 .wrapper .raindrop:nth-child(7) {
-    top: 12%;
+    top: 35%;
     left: 42%;
     animation: animate 7s linear infinite;
 }
 .wrapper .raindrop:nth-child(8) {
-    top: 12%;
+    top: 35%;
     left: 42%;
     animation: animate 11s linear infinite;
 }
 .wrapper .raindrop:nth-child(9) {
-    top: 12%;
+    top: 35%;
     left: 42%;
     animation: animate 12s linear infinite;
 }
 .wrapper .raindrop:nth-child(10) {
-    top: 12%;
+    top: 35%;
     left: 42%;
     animation: animate 10s linear infinite;
 }
