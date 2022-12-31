@@ -1,8 +1,9 @@
 # CSS-Animation
 
-![GitHub](https://img.shields.io/badge/License-BSD%202%20Clause-red)
-![GitHub](https://img.shields.io/badge/Version-Stable-success)
-![GitHub](https://img.shields.io/badge/-Pure%20CSS-blueviolet)
+![](https://img.shields.io/badge/License-BSD%202%20Clause-red)
+![](https://img.shields.io/badge/Version-Stable-success)
+![](https://img.shields.io/badge/-Stylisch-2d2f40?style=flat&logo=stylelint)
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3)
 
 ## Goal
 
