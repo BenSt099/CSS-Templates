@@ -12,6 +12,7 @@ Provide a funny animation created with css.
 
 - Factory
 - Snowfall
+- Eclipse
 
 ## License
 
