@@ -8,6 +8,12 @@
 
 Provide a funny animation created with css.
 
+
+## Animations
+
+- Factory
+- Rainfall
+
 ## License
 
 This project is licensed under BSD-2-Clause license. For more information, check out license.
