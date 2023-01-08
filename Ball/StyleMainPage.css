@@ -17,14 +17,16 @@ body {
     border-radius: 40px;
     text-align: center; 
     background-color: rgb(32, 67, 118);  
+    opacity: 0;
 }
 
 .wrapper .element:nth-child(1) {
     animation: animate 1.3s linear infinite;
+    animation-iteration-count: 3;
 }
 
 @keyframes animate {
-    0%   {top: 80%; left: 10%;}
+    0%   {top: 80%; left: 10%; opacity: 1;}
     3%   {top: 68%; left: 12%;}
     6%   {top: 55%; left: 14%;}
     9%   {top: 45%; left: 16%;}
@@ -58,5 +60,5 @@ body {
     93%  {top: 65%; left: 80%;}
     96%  {top: 70%; left: 81%;}
     99%  {top: 78%; left: 83%;}
-    100% {top: 80%; left: 84%;} 
+    100% {top: 80%; left: 84%;opacity: 1;} 
 }
