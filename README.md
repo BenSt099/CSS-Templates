@@ -15,6 +15,7 @@ Funny animations created with css.
 - Factory
 - Snowfall
 - Eclipse
+- Wave
 
 ## License
 
