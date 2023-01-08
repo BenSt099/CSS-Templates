@@ -16,6 +16,7 @@ Funny animations created with css.
 - Snowfall
 - Eclipse
 - Wave
+- Ball
 
 ## License
 

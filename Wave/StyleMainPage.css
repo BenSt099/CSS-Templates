@@ -17,57 +17,58 @@ body {
     text-align: center; 
     border-radius: 40px;
     background-color: rgb(32, 67, 118);  
+    
 }
 
 .wrapper .element:nth-child(1) {
     top: 50%;
     left: 20%;
-    animation: animate 6s linear infinite;
+    animation: animate 6s ease infinite;
 }
 .wrapper .element:nth-child(2) {
     top: 50%;
     left: 25%;
-    animation: animate 7s linear infinite;
+    animation: animate 7s ease infinite;
 }
 .wrapper .element:nth-child(3) {
     top: 50%;
     left: 30%;
-    animation: animate 8s linear infinite;
+    animation: animate 8s ease infinite;
 }
 .wrapper .element:nth-child(4) {
     top: 50%;
     left: 35%;
-    animation: animate 9s linear infinite;
+    animation: animate 9s ease infinite;
 }
 .wrapper .element:nth-child(5) {
     top: 50%;
     left: 40%;
-    animation: animate 10s linear infinite;
+    animation: animate 10s ease infinite;
 }
 .wrapper .element:nth-child(6) {
     top: 50%;
     left: 45%;
-    animation: animate 11s linear infinite;
+    animation: animate 11s ease infinite;
 }
 .wrapper .element:nth-child(7) {
     top: 50%;
     left: 50%;
-    animation: animate 12s linear infinite;
+    animation: animate 12s ease infinite;
 }
 .wrapper .element:nth-child(8) {
     top: 50%;
     left: 55%;
-    animation: animate 13s linear infinite;
+    animation: animate 13s ease infinite;
 }
 .wrapper .element:nth-child(9) {
     top: 50%;
     left: 60%;
-    animation: animate 14s linear infinite;
+    animation: animate 14s ease infinite;
 }
 .wrapper .element:nth-child(10) {
     top: 50%;
     left: 65%;
-    animation: animate 15s linear infinite;
+    animation: animate 15s ease infinite;
 }
 
 @keyframes animate {
