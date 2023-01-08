@@ -20,21 +20,15 @@ body {
 }
 
 .wrapper .element:nth-child(1) {
-   
-    animation: animate 2s linear infinite;
+    animation: animate 5s linear infinite;
 }
 
-
 @keyframes animate {
-    0%   {top: 50%; left: 30%;}
-    20%  {top: 65%; left: 35%;}
-    25%  {top: 70%; left: 40%;}
-    30%  {top: 65%; left: 45%;}
-    50%  {top: 50%; left: 50%;}
-    70%  {top: 45%; left: 55%;}
-    75%  {top: 55%; left: 60%;}
-    80%  {top: 45%; left: 65%;}
-    90%  {top: 50%; left: 70%;}
-    95%  {top: 40%; left: 75%;}
-    100% {top: 30%; left: 80%;}
+    0%   {top: 80%; left: 20%;}
+    30%  {top: 40%; left: 30%;}
+    45%  {top: 80%; left: 40%;}
+    60%  {top: 60%; left: 50%;}
+    75%  {top: 80%; left: 60%;}
+    90%  {top: 80%; left: 70%;}
+    100% {top: 80%; left: 80%;}
 }
