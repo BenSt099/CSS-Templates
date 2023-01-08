@@ -12,74 +12,78 @@ body {
 
 .wrapper .element {
     position: absolute;
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     text-align: center; 
+    border-radius: 40px;
     background-color: rgb(32, 67, 118);  
 }
 
 .wrapper .element:nth-child(1) {
     top: 50%;
-    left: 15%;
-    animation: animate 7s linear infinite;
+    left: 20%;
+    animation: animate 6s linear infinite;
 }
 .wrapper .element:nth-child(2) {
     top: 50%;
-    left: 20%;
-    animation: animate 6s linear infinite;
+    left: 25%;
+    animation: animate 7s linear infinite;
 }
 .wrapper .element:nth-child(3) {
     top: 50%;
     left: 30%;
-    animation: animate 9s linear infinite;
+    animation: animate 8s linear infinite;
 }
 .wrapper .element:nth-child(4) {
     top: 50%;
-    left: 40%;
-    animation: animate 8s linear infinite;
+    left: 35%;
+    animation: animate 9s linear infinite;
 }
 .wrapper .element:nth-child(5) {
     top: 50%;
-    left: 50%;
-    animation: animate 4s linear infinite;
+    left: 40%;
+    animation: animate 10s linear infinite;
 }
 .wrapper .element:nth-child(6) {
     top: 50%;
-    left: 60%;
-    animation: animate 5s linear infinite;
+    left: 45%;
+    animation: animate 11s linear infinite;
 }
 .wrapper .element:nth-child(7) {
     top: 50%;
-    left: 70%;
-    animation: animate 7s linear infinite;
+    left: 50%;
+    animation: animate 12s linear infinite;
 }
 .wrapper .element:nth-child(8) {
     top: 50%;
-    left: 80%;
-    animation: animate 11s linear infinite;
+    left: 55%;
+    animation: animate 13s linear infinite;
 }
 .wrapper .element:nth-child(9) {
     top: 50%;
-    left: 90%;
-    animation: animate 12s linear infinite;
+    left: 60%;
+    animation: animate 14s linear infinite;
 }
 .wrapper .element:nth-child(10) {
     top: 50%;
-    left: 95%;
-    animation: animate 10s linear infinite;
+    left: 65%;
+    animation: animate 15s linear infinite;
 }
-
 
 @keyframes animate {
     0%{
         top: 60%;
-        
+    }
+    25%{
+        top: 40%;
     }
     50%{
         top: 20%
     }
+    75%{
+        top: 40%
+    }
     100%{
         top: 60%;
-        
     }
 }
