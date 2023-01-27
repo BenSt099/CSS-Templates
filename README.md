@@ -6,9 +6,9 @@
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3)
 ![](https://img.shields.io/badge/No.%20of%20Animations-6-9cf?style=flat&logo=Soundcharts)
 
-## Goal
+## Description
 
-Funny animations created with CSS.
+Animations created with CSS.
 
 ## Animations
 
@@ -21,4 +21,4 @@ Funny animations created with CSS.
 
 ## License
 
-This project is licensed under BSD-2-Clause license. For more information, checkout license.
+This project is licensed under BSD-2-Clause license. For more information, checkout ![License](https://github.com/BenSt099/CSS-Animation/blob/main/LICENSE.md).
