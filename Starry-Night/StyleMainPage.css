@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(12, 21, 66);
+    background-color: rgb(2, 5, 16);
 }
 
 .container {
@@ -10,27 +10,70 @@ body {
     background: linear-gradient(to bottom, #000066 0%, #3366ff 100%);
 }
 
-.wrapper .smoke {
+.wrapperSun .stars {
     position: absolute;
-    height: 60px;
-    width: 60px;  
-    background-color: rgb(104, 194, 229);
+    height: 3px;
+    width: 3px;
     border-radius: 90px;
+    background-color: rgb(253, 220, 137);
+    box-shadow:
+    0 0 20px 4px rgba(142, 113, 18, 0.356), 
+    0 0 20px 5px rgba(231, 173, 66, 0.343), 
+    0 0 40px 6px rgb(189, 5, 5); 
 }
 
-.wrapper .smoke:nth-child(1) {
-    top: 35%;
-    left: 42%;
-    animation: animate 10s linear infinite;
-}
-
-@keyframes animate {
-    0%{
-        transform: scale(0) translateY(0);
-        opacity: 1;
-    }
-    100%{
-        transform: scale(1.3) translateY(-90px);
-        opacity: 0;
-    }
-}
+.wrapperSun .stars:nth-child(1) {top: 17%;left: 50%;}
+.wrapperSun .stars:nth-child(2) {top: 22%;left: 68%;}
+.wrapperSun .stars:nth-child(3) {top: 40%;left: 10%;}
+.wrapperSun .stars:nth-child(4) {top: 30%;left: 83%;}
+.wrapperSun .stars:nth-child(5) {top: 58%;left: 93%;}
+.wrapperSun .stars:nth-child(6) {top: 7%; left: 7%;}
+.wrapperSun .stars:nth-child(7) {top: 10%; left: 10%;height: 9px;width: 9px; background-color: rgb(255, 241, 205);}
+.wrapperSun .stars:nth-child(8) {top: 28%; left: 66%;height: 2px;width: 2px; background-color: rgb(255, 241, 205);}
+.wrapperSun .stars:nth-child(9) {top: 44%; left: 17%;height: 3px;width: 3px; background-color: rgb(249, 216, 135);}
+.wrapperSun .stars:nth-child(10) {top: 48%; left: 22%;height: 4px;width: 4px; background-color: rgb(236, 182, 102);}
+.wrapperSun .stars:nth-child(11) {top: 36%; left: 88%;height: 2px;width: 2px; background-color: rgb(252, 204, 82);}
+.wrapperSun .stars:nth-child(12) {top: 25%; left: 33%;height: 4px;width: 4px; background-color: rgb(235, 172, 70);}
+.wrapperSun .stars:nth-child(13) {top: 27%; left: 54%;height: 5px;width: 5px; background-color: rgb(235, 133, 70);}
+.wrapperSun .stars:nth-child(14) {top: 29%; left: 56%;height: 6px;width: 6px; background-color: rgb(255, 148, 106);}
+.wrapperSun .stars:nth-child(15) {top: 63%; left: 21%;height: 3px;width: 3px; background-color: rgb(233, 126, 126);}
+.wrapperSun .stars:nth-child(16) {top: 25%; left: 51%;height: 2px;width: 2px; background-color: rgb(235, 172, 70);}
+.wrapperSun .stars:nth-child(17) {top: 12%; left: 90%;height: 4px;width: 4px; background-color: rgb(235, 172, 70);}
+.wrapperSun .stars:nth-child(18) {top: 19%; left: 79%;height: 3px;width: 3px; background-color: rgba(239, 195, 113, 0.725);}
+.wrapperSun .stars:nth-child(19) {top: 47%; left: 44%;height: 2px;width: 2px; background-color: rgb(255, 91, 91);}
+.wrapperSun .stars:nth-child(20) {top: 61%; left: 36%;height: 3px;width: 3px; background-color: rgb(255, 168, 29);}
+.wrapperSun .stars:nth-child(21) {top: 14%; left: 13%;}
+.wrapperSun .stars:nth-child(22) {top: 16%; left: 15%;height: 4px;width: 4px; background-color: rgb(236, 182, 102);}
+.wrapperSun .stars:nth-child(23) {top: 19%; left: 65%;}
+.wrapperSun .stars:nth-child(24) {top: 33%; left: 81%;height: 3px;width: 3px; background-color: rgb(255, 168, 29);}
+.wrapperSun .stars:nth-child(25) {top: 38%; left: 83%;}
+.wrapperSun .stars:nth-child(26) {top: 22%; left: 63%;}
+.wrapperSun .stars:nth-child(27) {top: 42%; left: 61%;height: 4px;width: 4px; background-color: rgb(236, 182, 102);}
+.wrapperSun .stars:nth-child(28) {top: 14%; left: 34%;}
+.wrapperSun .stars:nth-child(29) {top: 23%; left: 35%;}
+.wrapperSun .stars:nth-child(30) {top: 9%; left: 40%;height: 2px;width: 2px; background-color: rgb(255, 91, 91);}
+.wrapperSun .stars:nth-child(31) {top: 13%; left: 42%;}
+.wrapperSun .stars:nth-child(32) {top: 11%; left: 47%;height: 6px;width: 6px; background-color: rgb(255, 241, 205);}
+.wrapperSun .stars:nth-child(33) {top: 39%; left: 23%;}
+.wrapperSun .stars:nth-child(34) {top: 27%; left: 33%;height: 4px;width: 4px; background-color: rgb(236, 182, 102);}
+.wrapperSun .stars:nth-child(35) {top: 25%; left: 36%;}
+.wrapperSun .stars:nth-child(36) {top: 21%; left: 39%;}
+.wrapperSun .stars:nth-child(37) {top: 18%; left: 26%;}
+.wrapperSun .stars:nth-child(38) {top: 89%; left: 47%;height: 3px;width: 3px; background-color: rgb(255, 168, 29);}
+.wrapperSun .stars:nth-child(39) {top: 77%; left: 23%;}
+.wrapperSun .stars:nth-child(40) {top: 81%; left: 33%;}
+.wrapperSun .stars:nth-child(41) {top: 90%; left: 36%;height: 4px;width: 4px; background-color: rgb(236, 182, 102);}
+.wrapperSun .stars:nth-child(42) {top: 66%; left: 39%;}
+.wrapperSun .stars:nth-child(43) {top: 74%; left: 26%;height: 2px;width: 2px; background-color: rgb(255, 91, 91);}
+.wrapperSun .stars:nth-child(44) {top: 89%; left: 88%;}
+.wrapperSun .stars:nth-child(45) {top: 77%; left: 90%;}
+.wrapperSun .stars:nth-child(46) {top: 81%; left: 95%;height: 4px;width: 4px; background-color: rgb(236, 182, 102);}
+.wrapperSun .stars:nth-child(47) {top: 90%; left: 77%;height: 5px;width: 5px; background-color: rgb(255, 241, 205);}
+.wrapperSun .stars:nth-child(48) {top: 66%; left: 83%;height: 3px;width: 3px; background-color: rgb(255, 168, 29);}
+.wrapperSun .stars:nth-child(49) {top: 74%; left: 65%;}
+.wrapperSun .stars:nth-child(50) {top: 88%; left: 19%;height: 4px;width: 4px; background-color: rgb(236, 182, 102);}
+.wrapperSun .stars:nth-child(51) {top: 90%; left: 7%;}
+.wrapperSun .stars:nth-child(52) {top: 83%; left: 16%;height: 2px;width: 2px; background-color: rgb(252, 204, 82);}
+.wrapperSun .stars:nth-child(53) {top: 69%; left: 22%;height: 3px;width: 3px; background-color: rgb(255, 168, 29);}
+.wrapperSun .stars:nth-child(54) {top: 77%; left: 44%;}
+.wrapperSun .stars:nth-child(55) {top: 71%; left: 35%;}
