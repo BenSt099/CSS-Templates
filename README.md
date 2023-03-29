@@ -8,7 +8,7 @@
 
 ## Description
 
-Animations created with CSS.
+Animations created with CSS + Templates / Examples for Bootstrap.
 
 ## Animations
 
@@ -18,6 +18,10 @@ Animations created with CSS.
 - Wave
 - Jumping Ball
 - Starry Night
+
+## Templates / Examples
+
+- Bootstrap Card Exp (Exp1)
 
 ## License
 
